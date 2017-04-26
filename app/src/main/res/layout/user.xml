@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="4">
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="111dp"
+        android:layout_height="47dp"
+        android:layout_weight="0.5"
+        android:text="ID"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="111dp"
+        android:layout_height="47dp"
+        android:layout_weight="1.5"
+        android:text="姓名"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="110dp"
+        android:layout_height="47dp"
+        android:layout_weight="0.5"
+        android:text="年龄"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:text="性别"
+        android:textSize="18sp"/>
+</LinearLayout>
